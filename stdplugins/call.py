@@ -26,13 +26,13 @@ async def _(event):
 
         return
 
-    animation_interval = 5
+    animation_interval = 3
 
     animation_ttl = range(0, 18)
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "/cull":
+    if input_str == "call":
 
         await event.edit(input_str)
 
@@ -41,20 +41,20 @@ async def _(event):
             "`Connecting To Telegram Headquarters...`",
             "`Call Connected.`",
             "`Telegram: Hello This is Telegram HQ. Who is this?`",
-            "`Me: Yo this is` @believer_accounts ,`Please Connect me to Pavel Durov Shukla`",
+            "`Me: Yo this is` @Believer_accounts ,`Please Connect me to my lil bro,Pavel Durov`",
             "`User Authorised.`",
-            "`Calling Pavel Durov Shukla (@durov) At +916969996969`",
+            "`Calling Pavel Durov`  `At +916969696969`",
             "`Private  Call Connected...`",
             "`Me: Hello Sir, Please Ban This Telegram Account.`",    
-            "`Durov: May I Know Who Is This?`",
-            "`Me: Yo Brah, I Am` @believer_accounts",
-            "`Durov: OMG!!! I Am FAN Of You Sir...\nI'll Make Sure That Guy Account Will Get Blocked Within 24Hrs.`",
+            "`Pavel: May I Know Who Is This?`",
+            "`Me: Yo Brah, I Am` @Believer_accounts ",
+            "`Pavel: OMG!!! Long time no see, Wassup Brother...\nI'll Make Sure That Guy Account Will Get Blocked Within 24Hrs.`",
             "`Me: Thanks, See You Later Brah.`",
-            "`Durov: Please Don't Thank Sir, Telegram Is Your's. Just Gimme A Call When You Become Free.`",
+            "`Pavel: Please Don't Thank Brah, Telegram Is Our's. Just Gimme A Call When You Become Free.`",
             "`Me: Is There Any Issue/Emergency???`",
-            "`Durov: Yes Sir, There Is A Bug In Telegram v5.8.0.\nI Am Not Able To Fix It. If Possible, Please Help Fix The Bug.`",
+            "`Pavel: Yes Sur, There Is A Bug In Telegram v69.6.9.\nI Am Not Able To Fix It. If Possible, Please Help Fix The Bug.`",
             "`Me: Send Me The App On My Telegram Account, I Will Fix The Bug & Send You.`",
-            "`Durov: Sure Sur \nTC Bye Bye :)`",
+            "`Pavel: Sure Sur \nTC Bye Bye :)`",
             "`Private Call Disconnected.`"
         ]
 
